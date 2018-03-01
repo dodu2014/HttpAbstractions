@@ -9,7 +9,7 @@ namespace Microsoft.AspNetCore.Http
 	/// <summary>
 	/// 表示一个类，该类对 Microsoft.AspNetCore.HttpRequest 类进行了扩展，在其中添加了确定 HTTP 请求是否为 AJAX 请求的功能，和查询 QueryString 的键值的功能。
 	/// </summary>
-	static class RequestExtensions
+	public static class RequestExtensions
 	{
 		/// <summary>
 		/// 获取HttpRequest查询字符串集合中指定键的参数值。
